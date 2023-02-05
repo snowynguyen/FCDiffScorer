@@ -3,7 +3,7 @@
 ## Proposed change
 This analysis aim to correct the difficulty rating given for Free Contest problems on VNOJ. 
 
-The first iteration of this analysis proposes change to the difficulting scoring of **332** problems. 
+The first iteration of this analysis proposes change to the difficulting scoring of **332** problems that have text-based ranking board on Free Contest database before 2022. 
 
 Compared to the existing VNOJ scoring, the average change is `-0.08` with std deviation of `0.33`. 
 
@@ -38,7 +38,7 @@ Desmos demostration: https://www.desmos.com/calculator/ahstqyorda
 
 ## About all the files
 
-For VNOJ admin, the final suggested change is given in `analysis_final.csv`. The problem codename is in the `Task` column, its new rating is in `JRatingM` column. 
+For VNOJ admin, the final suggested change is given in `analysis_final.csv`. The problem codename is in the `Task` column, its new rating is in `JRatingM` column. Please run another check whether if Task codename is found on VNOJ or not, as this table is calculated based on Free Contest database. 
 
 To read the detailed final work, consult the `analysis_final.xlsx` file. Other works is found in `analysis` subdirectory. 
 
