@@ -36,9 +36,15 @@ I intend to reward a >0.9 difficulty for problems with lower than 1% of AC rate.
 
 Desmos demostration: https://www.desmos.com/calculator/ahstqyorda 
 
+## About all the files
+
+For VNOJ admin, the final suggested change is given in `analysis_final.csv`. The problem codename is in the `Task` column, its new rating is in `JRatingM` column. 
+
+To read the detailed final work, consult the `analysis_final.xlsx` file. Other works is found in `analysis` subdirectory. 
+
 ## Running this notebook
 
-To run this Jupyter notebook: 
+To run this Jupyter notebook (and come up with the final result yourself): 
 
 1. Install all requirements as in `requirements.txt`.
 2. Create a *service account* credential from Google as a JSON file, with Google Drive API enabled.
