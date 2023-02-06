@@ -38,7 +38,7 @@ Desmos demostration: https://www.desmos.com/calculator/ahstqyorda
 
 ### Calculation of True Participant count (`tp`) 
 
-One approach is to take the count of non-zero scoring participants as the True Participant count. However, there exists old contest (such as Free Contest 40), where it was found to have 70% participants getting zero score. One task was found to be solved by all non-zero scoring participants. Reading that problem statement, it definitely was not an easy problem considering the contest only had 4 problems. By the old approach, this task would have a 100% AC rate and having difficulty of 0.01. Many other contests face the same problem, where all tasks are too hard that more than half of registrants got 0 score. 
+One approach is to take the count of non-zero scoring participants as the True Participant count. However, there exists old contest (such as Free Contest 40), where it was found to have 70% participants getting zero score. One task in this contest was found to be solved by all non-zero scoring participants. Reading that problem statement, it definitely was not an easy problem considering the contest only had 4 problems. By the old approach, this task would have a 100% AC rate and having difficulty of 0.01. Many other contests face the same problem, where all tasks are too hard that more than half of registrants got 0 score. 
 
 One analysis has found that the zero-scoring ratio per contest is avg .43, std deviation .15. Therefore it can be confidently said that the bottom 15% of ranking board shall be removed, while keeping other scores as part of true participants. I propose the new calculation of `tp` as `.85 * (all participants count)`, regardless of zero contest scores.
 
