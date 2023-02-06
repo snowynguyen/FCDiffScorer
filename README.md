@@ -16,7 +16,7 @@ Assuming each problem has a difficulty rating of R in `[0.01, 1.00]`. If no one 
 - For other contests: `multipliter = 1.50` 
 
 Let `P` be the in-contest AC rate, calculated by **dividing** the **in-contest AC count** (ac) by the **number of true participants** (tp).  
-Inspried by the modified Elo Rating system used on Codeforces for problemset difficulty, for every 1.00 points increase in the problem difficulty (scale from 0.01 to 1.00), `P` is divided by 10. Let `f(P)` be this initial function:
+Inspried by the modified Elo Rating system used on Codeforces for problemset difficulty, for every 0.50 points increase in the problem difficulty (scale from 0.01 to 1.00), `P` is divided by 10. Let `f(P)` be this initial function:
 
 `f(x) = (-\log_{10}(x*0.99+0.01)/2*0.99+0.01)` 
 
