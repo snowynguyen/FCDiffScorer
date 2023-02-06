@@ -30,7 +30,7 @@ This function works well for easy problems, but for more difficult the reward is
 
 I intend to reward a >0.9 difficulty for problems with lower than 1% of AC rate. Another buff is needed for such extremely difficult problems.
 
-`h(x) = g(x)+(1-g(x))*(\max(0,0.125-x)^{3})
+`h(x) = g(x)+(1-g(x))*((\max(0,0.125-x)*6)^{3})
 
 ![image](https://user-images.githubusercontent.com/30857393/216832785-d823a949-e5ca-4e0b-b4f1-c000eae40757.png)
 
